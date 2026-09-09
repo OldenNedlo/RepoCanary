@@ -1,0 +1,9 @@
+{
+  "large_file_mib": 8,
+  "fail_on": "medium",
+  "ignore": [
+    "vendor/**",
+    "fixtures/**",
+    "docs/generated/**"
+  ]
+}

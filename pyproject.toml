@@ -4,13 +4,26 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "repocanary"
-version = "0.1.0"
-description = "Local-first repository health scanner for open-source maintainers"
+version = "0.2.0"
+description = "Local-first repository health and release-readiness scanner for open-source maintainers"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [{name = "OldenNedlo"}]
-keywords = ["open-source", "repository", "maintenance", "security", "cli"]
+keywords = ["open-source", "repository", "maintenance", "security", "cli", "sarif", "release"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.urls]
+Homepage = "https://github.com/OldenNedlo/RepoCanary"
+Issues = "https://github.com/OldenNedlo/RepoCanary/issues"
+Changelog = "https://github.com/OldenNedlo/RepoCanary/blob/main/CHANGELOG.md"
 
 [project.scripts]
 repocanary = "repocanary.cli:main"

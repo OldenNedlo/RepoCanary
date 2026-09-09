@@ -8,5 +8,7 @@ build/
 .coverage
 .pytest_cache/
 .mypy_cache/
-report.json
-report.md
+repocanary.json
+repocanary.md
+repocanary.sarif
+release-readiness.md
